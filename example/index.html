@@ -49,15 +49,14 @@
                 <div class="col-md-4">
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon">฿</span>
-                        <input type="number" class="form-control" placeholder="0">
+                        <input type="number" class="form-control" placeholder="0" id="amountBTC">
                     </div>
                 </div>
 
                 <div class="col-md-6">
-                    <p>USD</p>
-                    <p>USD</p>
-                    <p>USD</p>
-                    <p>USD</p>
+                    <p class="resultUSD">0 USD</p>
+                    <p class="resultEUR">0 EUR</p>
+                    <p class="resultGBP">0 GBP</p>
                 </div>
             </div>
 
@@ -68,6 +67,7 @@
     <!-- scripts -->
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="../btc2fiatlib.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
